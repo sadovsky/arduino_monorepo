@@ -8,7 +8,7 @@ void setup()
 
 void led_random(uint8_t pin, uint8_t val)
 {
-    long sleep = rand(500,1500);
+    long sleep = random(500,1500);
     digitalWrite(pin,val); // turns the LED on
     delay(sleep); // waits 
 }
